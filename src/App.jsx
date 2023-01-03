@@ -1,9 +1,10 @@
-import React from 'react'
+import Nav from "./Components/Nav"
 
 const App = () => {
   return (
-      <div className='text-white'>
-          thing
+      <div className='h-screen bg-black'>
+      <Nav />
+      
     </div>
   )
 }
