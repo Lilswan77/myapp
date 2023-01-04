@@ -1,12 +1,12 @@
-import Nav from "./Components/Nav"
+import Nav from "./Components/Nav";
 
 const App = () => {
   return (
-      <div className='h-screen bg-black'>
+    <div className="bg-black h-screen">
       <Nav />
       
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
