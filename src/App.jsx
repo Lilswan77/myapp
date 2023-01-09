@@ -2,14 +2,17 @@ import Nav from "./Components/Nav";
 
 const App = () => {
   return (
-    <div className="bg-black ">
+    <div className="bg-black h-screen ">
       <Nav />
-      <div class="flex items-center h-screen ">
-        <div class="w-96 h-96 bg-white">
-          Hello World
-        </div>
+      <div className="overflow-x-auto flex justify-center items-center h-screen">
+        <div className="flex-none w-96 h-96 border border-white"></div>
+        <div className="flex-none w-96 h-96 border border-white"></div>
+        <div className="flex-none w-96 h-96 border border-white"></div>
+        <div className="flex-none w-96 h-96 border border-white"></div>
+        <div className="flex-none w-96 h-96 border border-white"></div>
+        <div className="flex-none w-96 h-96 border border-white"></div>
       </div>
-    </div>
+      </div>
   );
 };
 
